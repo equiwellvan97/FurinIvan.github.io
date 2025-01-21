@@ -47,3 +47,6 @@ li {
   display: flex;
   gap: 30px;
 }
+footer {
+  padding-top: 3px;
+}
