@@ -50,3 +50,30 @@ li {
 footer {
   padding-top: 3px;
 }
+
+@media (max-width: 480px) {
+  * {
+    font-size: 13px;
+  }
+  #container {
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 360px) {
+  * {
+    font-size: 10px;
+  }
+  img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .flex {
+    gap: 7px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+}
