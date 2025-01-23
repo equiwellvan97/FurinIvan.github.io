@@ -53,10 +53,22 @@ footer {
 
 @media (max-width: 480px) {
   * {
-    font-size: 13px;
+    font-size: 12px;
   }
   #container {
-    padding: 10px 5px;
+    padding: 5px 2px;
+  }
+
+  #about_me {
+    gap: 10px;
+  }
+
+  .flex {
+    gap: 4px;
+  }
+
+  #communications {
+    gap: 20px;
   }
 }
 @media (max-width: 360px) {
