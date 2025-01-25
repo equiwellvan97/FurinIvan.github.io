@@ -43,6 +43,12 @@ li {
   padding-bottom: 5px;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
 #communications {
   display: flex;
   gap: 30px;
